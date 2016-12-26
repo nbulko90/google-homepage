@@ -1,4 +1,10 @@
-#main-logo{
+
+body{
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+}
+	#main-logo{
 	display: block;
 	margin: 0 auto;
 	position: relative;
@@ -77,47 +83,34 @@
 }
 
 #bottombar{
-	display: block;
-	margin: 0 auto;
-	border: 1px solid #f2f2f2;
+	margin: 0;
 	background-color: #f2f2f2;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	height:23px;
+	position: absolute;
+	padding-bottom: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height:25px;
 	width: 100%;
 }
 
-#bottombarleft{
+#bottombar ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	padding: 12px 14px;
 }
 
-.bottombarlistleft{
-	float: left;
-	font-family: Arial;
-	font-size: 6pt;
-	color: #3d4044;
-	padding: 7px;
-	padding-left: 15px;
-}
-
-#bottombarright{
-	list-style-type: none;
-	margin: 0;
-	padding-bottom: 25px;
-	overflow: hidden;
-}
-
-.bottombarlistright{
-	
-	font-family: Arial;
-	font-size: 6pt;
-	color: #3d4044;
-	float: right;
-	overflow: visible;
+#bottombar li{
 	display: inline;
-	padding-bottom: 25px;
+	padding: 5px 14px;
+}
+
+#bottomleft{
+	float: left;
+	display: block;
+}
+
+#bottomright{
+	display: block;
+	float:right;
 }
