@@ -1,0 +1,123 @@
+#main-logo{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 90px;
+	width: 20%;
+}
+
+#search-bar{
+	display: block;
+	margin: 0 auto;
+	width: 310px;
+	height: 20px;
+	position: relative;
+	top: 100px;
+	border: 1px solid #becece;
+	box-shadow: 1px 1px 1px #becece;
+}
+
+#microphone{
+	display: block;
+	width: 1.4%;
+	position: relative;
+	top: 81px;
+	left: 515px;
+}
+
+#topbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+.topbarlist{
+	height: 17px;
+	width: 17px;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+	display: inline;
+	float: right;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 2px;
+}
+
+
+
+#google-search{
+	display: inline-block;
+	margin: 0 auto;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+	position: relative;
+	top: 95px;
+	left: 313px;
+	padding: 3px;
+
+}
+
+#im-feeling-lucky{
+	display: inline-block;
+	margin: auto;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+	position: relative;
+	top: 95px;
+	left: 312px;
+	padding: 3px;
+}
+
+#bottombar{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height:23px;
+	width: 100%;
+}
+
+#bottombarleft{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.bottombarlistleft{
+	float: left;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+	padding: 7px;
+	padding-left: 15px;
+}
+
+#bottombarright{
+	list-style-type: none;
+	margin: 0;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+
+.bottombarlistright{
+	
+	font-family: Arial;
+	font-size: 6pt;
+	color: #3d4044;
+	float: right;
+	overflow: visible;
+	display: inline;
+	padding-bottom: 25px;
+}
